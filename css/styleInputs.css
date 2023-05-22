@@ -1,0 +1,276 @@
+.button {
+    font-size: 100%;
+    display: inline-block;
+    height: 100%;
+    width: 7em;
+    border-radius: 12px;
+    padding-right: .5em;
+    padding-left: .5em;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    background-color: #464646;
+    color: white;
+}
+
+.button2 {
+    font-size: 100%;
+    display: inline-block;
+    height: 100%;
+    border-radius: 12px;
+    padding-right: .5em;
+    padding-left: .5em;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    color: black;
+    background-color: rgba(200, 200, 198, 1.0);
+}
+
+.button3 {
+    font-size: 100%;
+    display: inline-block;
+    height: 100%;
+    padding-right: .5em;
+    padding-left: .5em;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    color: black;
+    background-color: rgba(200, 200, 198, 1.0);
+}
+
+.selectMap {
+    font-size: 100%;
+    display: inline-block;
+    height: 100%;
+    width: auto;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    border: 0px;
+    text-align:center;
+    font-size: 100%;
+    color: white;
+    background-color: #464646;
+}
+
+.selectDataset {
+    font-size: 100%;
+    display: inline-block;
+    height: 100%;
+    width: 6.3em;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    border: 0px;
+    text-align:center;
+    font-size: 100%;
+    color: white;
+    background-color: #464646;
+}
+
+.selectDates {
+    font-size: 100%;
+    display: inline-block;
+    border-radius: 12px;
+    padding-right: .5em;
+    padding-left: .5em;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;    padding-right: .5em;
+    padding-left: .5em;
+    border: none;
+    color: black;
+    background-color: rgba(200, 200, 198, 1.0);
+}
+
+.inputVelocity {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0px solid #464646;
+    display: inline-block;
+    cursor: text;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    color: black;
+    background: rgba(255, 255, 255, .95);
+}
+
+.inputDate {
+    border: 1px solid #464646;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    border-radius: 8px;
+}
+
+.switch {
+    height: 24px;
+    display: none;
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+
+.switch input {
+    display: none;
+}
+
+.switch input+span {
+    padding-left: 42px;
+    min-height: 22px;
+    line-height: 20px;
+    display: block;
+    color: #040404;
+    position: relative;
+    vertical-align: middle;
+    white-space: nowrap;
+    transition: color 0.3s ease;
+}
+
+.switch input+span:before, .switch input+span:after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 12px;
+}
+
+.switch input+span:before {
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 20px;
+    background: #A4A7AC;
+    transition: all 0.3s ease;
+}
+
+.switch input+span:after {
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    top: 1px;
+    left: 1px;
+    box-shadow: 0 1px 3px rgba(18, 22, 33, 0.1);
+    transition: all 0.45s ease;
+}
+
+.switch input+span em {
+    width: 8px;
+    height: 7px;
+    background: #040404;
+    position: absolute;
+    left: 6px;
+    bottom: 9px;
+    border-radius: 2px;
+    display: block;
+    z-index: 1;
+    transition: all 0.45s ease;
+}
+
+.switch input+span em:before {
+    content: "";
+    width: 2px;
+    height: 2px;
+    border-radius: 1px;
+    background: #fff;
+    position: absolute;
+    display: block;
+    left: 50%;
+    top: 50%;
+    margin: -1px 0 0 -1px;
+}
+
+.switch input+span em:after {
+    content: "";
+    display: block;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border: 1px solid #040404;
+    border-bottom: 0;
+    width: 5px;
+    height: 4px;
+    left: 1px;
+    bottom: 6px;
+    position: absolute;
+    z-index: 1;
+    transform-origin: 0 100%;
+    transition: all 0.45s ease;
+    transform: rotate(-35deg) translate(0, 1px);
+}
+
+.switch input+span strong {
+    font-weight: normal;
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    display: block;
+    top: 1px;
+}
+
+.switch input+span strong:before, .switch input+span strong:after {
+    display: block;
+    -webkit-backface-visibility: hidden;
+}
+
+.textSwitch:before {
+    transition: all 0.3s ease 0.2s;
+}
+
+.textSwitch:after {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #B60031;
+    transition: all 0.3s ease;
+    transform: translate(2px, 0);
+}
+
+.switch input:checked+span:before {
+    background: rgba(182, 0, 49, 0.55);
+}
+
+.switch input:checked+span:after {
+    background: #fff;
+    transform: translate(18px, 0);
+}
+
+.switch input:checked+span em {
+    transform: translate(18px, 0);
+    background: #B60031;
+}
+
+.switch input:checked+span em:after {
+    border-color: #B60031;
+    transform: rotate(0deg) translate(0, 0);
+}
+
+.switch input:checked+span strong:before {
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    transform: translate(-2px, 0);
+}
+
+.switch input:checked+span strong:after {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, 0);
+    transition: all 0.3s ease 0.2s;
+}
